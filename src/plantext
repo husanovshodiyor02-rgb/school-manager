@@ -1,0 +1,20 @@
+; Tuple — bu bir necta elementlardan iborat tartiblangan va ozgarmaydigan (immutable) malumotlar toplami
+; tartiblangan elementlarni qoygan tartibda saqlaydi
+; ozgarmas: bir marta yaratgandan keyin ichidagi elementlarni ozgartiriw qowiw yoki ociriw mumkin emas (bazi tillarda cheklovlar boladi)
+; turli tipdagi elementlar boliwi mumkin: string number boolean hatto bowqa tuple ham
+
+
+; Enum (Enumeration) – bu cheklangan, nomlangan qiymatlar to‘plami.
+
+; Dasturda ko‘pincha konstantalar o‘rnida ishlatiladi.
+
+; Enum yordamida xatoliklarni kamaytiriw va kodni oqiliwi qulay qiliw mumkin
+; Xususiyatlari:
+; Elementlar nomlangan boladi (Red, Green, Blue)
+; Kopinca integer yoki string qiymatga ega
+; Immutable – qiymat ozgartirilmaydi
+
+
+; Namespace – bu identifikatorlarni (ism funksiya ozgaruvci) guruhlaw va nom toqnawuvini oldini oliw ucun iwlatiladigan hudud (context)
+; Dasturda bir xil nomli ozgaruvcilar yoki funksiyalar boliwi mumkin lekin namespace icida ular alohida boladi
+; Namespace yordamida kattaroq loyihalarda kodni tartibli saqlaw mumkin
